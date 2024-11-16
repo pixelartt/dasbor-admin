@@ -1,0 +1,94 @@
+<html>
+ <head>
+  <title>
+   Login Page
+  </title>
+  <style>
+   body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ff8c00;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .logo {
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .container {
+            background-color: #e0e0e0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .button {
+            width: 45%;
+            padding: 10px;
+            margin: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            background-color: #ff8c00;
+            cursor: pointer;
+        }
+
+        .button:hover {
+            background-color: #e07b00;
+        }
+
+        .footer-text {
+            margin-top: 20px;
+            font-size: 12px;
+        }
+
+        .login-text {
+            font-size: 12px;
+        }
+  </style>
+ </head>
+ <body>
+    <!-- Bagian logo -->
+    <div class="logo">
+        <img src="https://storage.googleapis.com/a1aa/image/YBLohgQpajJeLyXVfjoSYO0cOjYrpSLac7WeXiHhhmpArBjnA.jpg" 
+             alt="Logo with two interlocking C letters">
+    </div>
+
+    <!-- Bagian form login -->
+    <div class="container">
+        <input class="input-field" placeholder="Nama organisasi" type="text"/>
+        <input class="input-field" placeholder="Email" type="email"/>
+        <input class="input-field" placeholder="Sandi" type="password"/>
+        <div>
+            <button class="button">Daftar</button>
+            <button class="button">Masuk</button>
+        </div>
+        <div class="login-text">
+            Sudah punya akun?
+        </div>
+        <div class="footer-text">
+            Buat akun untuk melanjutkan
+        </div>
+    </div>
+ </body>
+</html>
